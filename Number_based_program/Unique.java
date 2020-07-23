@@ -12,7 +12,6 @@ class Main
         int n,n1,i,c=0,rem;
         boolean flag=true;
         n=sc.nextInt();
-        n1=n;
         
         for(i=0;i<=9;i++)
         {
