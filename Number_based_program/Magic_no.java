@@ -8,19 +8,20 @@ class Main
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int n,rem,sum=0;
+        int n,n1,rem,sum=0;
         
         n=sc.nextInt();
+        n1=n;
         
-        while(n!=0)
+        while(n1!=0)
         {
-            rem=n%10;
+            rem=n1%10;
             sum+=rem;
-            n/=10;
+            n1/=10;
             
-            if(n==0 && sum>9)
+            if(n1==0 && sum>9)
             {
-                n=sum;
+                n1=sum;
                 sum=0;
             }
         }
